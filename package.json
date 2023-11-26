@@ -1,15 +1,19 @@
 {
   "name": "ele_test",
+  "productName": "exeの名前",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
+    "build": "electron-packager .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "shun_god",
   "license": "main",
   "devDependencies": {
-    "electron": "^27.1.2"
+    "electron": "^27.1.2",
+    "electron-packager": "^17.1.2"
   }
 }
